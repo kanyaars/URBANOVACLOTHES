@@ -1,50 +1,85 @@
-## Simple Bio Link Landing Page
+# 🌐 Kanyaars Portal
 
-A lightweight, responsive, and customizable bio link landing page — perfect for social media profiles like TikTok, Instagram, and more. Supports **Google Tag Manager**, **TikTok Pixel**, and **Google Analytics**.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0b365021-9184-4544-9c5d-a2b801468e63/deploy-status)](https://app.netlify.com/projects/kanyaars-portal/deploys)
 
----
-
-### Features
-
-* 100% Free (host on [Netlify](https://www.netlify.com) or GitHub Pages)
-* No frameworks — just plain HTML + CSS
-* Fast, minimal, and responsive
-* Easily editable and deployable
-* Ready to integrate with tracking tools (GTM, TikTok Pixel)
-* Ideal for TikTok Ads or link-in-bio campaigns
+**Kanyaars Portal** is a minimalist and elegant personal bio link page designed to showcase your digital presence in one smart and stylish interface. Inspired by tools like Linktree, but fully customizable, lightweight, and built with pure HTML & CSS.
 
 ---
 
-### File Structure
+## 🚀 Features
+
+- ✅ Responsive design (mobile & desktop)
+- ✅ SEO & Open Graph ready
+- ✅ Favicon and PWA manifest support
+- ✅ Clean folder structure
+- ✅ Free deployment via Netlify or GitHub Pages
+
+---
+
+## 🖼 Live Demo
+
+🔗 [Visit the live site](https://kanyaars-portal.netlify.app)
+
+---
+
+## 📁 Folder Structure
 
 ```
-📦 bio-link-kanyaars
-┣ 📄 index.html
-┣ 📄 core.css
+
+kanyaars-portal/
+├── assets/
+│   ├── icons/
+│   │   ├── favicon.ico
+│   │   ├── favicon.svg
+│   │   ├── favicon-96x96.png
+│   │   ├── apple-touch-icon.png
+│   │   ├── web-app-manifest-192x192.png
+│   │   └── web-app-manifest-512x512.png
+│   └── style/
+│       └── main.css
+├── index.html
+├── site.webmanifest
+└── README.md
+
+````
+
+---
+
+## 🛠️ How to Use
+
+1. Clone or fork this repository:
+   ```bash
+   git clone https://github.com/kanyaars/kanyaars-portal.git
+``
+
+2. Customize `index.html` with your personal links, text, and branding.
+3. Edit styles in `assets/style/main.css` as needed.
+4. Deploy on [Netlify](https://www.netlify.com/) or [GitHub Pages](https://pages.github.com/).
+
+---
+
+## 🧾 Web App Manifest
+
+Located in `site.webmanifest`, this enables the PWA capability and supports app-like installation on mobile devices. Be sure to customize `name`, `short_name`, and `icons` path if needed.
+
+---
+
+## 📸 Preview
+
+> You can add a screenshot here by uploading an image named `preview.png` and adding the line below:
+
+```
+![Preview](preview.png)
 ```
 
 ---
 
-### How to Deploy on Netlify (Free)
+## 📜 License
 
-1. **Fork or download** this repository
-2. Go to [Netlify](https://app.netlify.com/) and log in
-3. Click `Add new site` > `Import from Git`
-4. Choose this GitHub repository
-5. Click **Deploy Site**
-6. Done! You’ll get a live link like `https://yourname.netlify.app`
+This project is open-source and available under the [MIT License](LICENSE).
 
 ---
 
-### Use Cases
+## 🙋‍♂️ Author
 
-* Add to TikTok/Instagram bio
-* Track clicks to external links (e.g., Shopee, WhatsApp, YouTube)
-* Use in TikTok Ads for campaigns
-* Monitor performance via Google Analytics or TikTok Pixel
-
----
-
-### License
-
-This project is open-source and free to use or modify for personal and commercial purposes.
+Made with ❤️ by [@kanyaars](https://github.com/kanyaars)
