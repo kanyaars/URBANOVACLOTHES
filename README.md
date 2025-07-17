@@ -64,16 +64,6 @@ Located in `site.webmanifest`, this enables the PWA capability and supports app-
 
 ---
 
-## 📸 Preview
-
-> You can add a screenshot here by uploading an image named `preview.png` and adding the line below:
-
-```
-![Preview](preview.png)
-```
-
----
-
 ## 📜 License
 
 This project is open-source and available under the [MIT License](LICENSE).
